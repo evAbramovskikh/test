@@ -5,23 +5,18 @@
 /* Animatiion */
 
 @keyframes enemyAttack {
-  from{background-position-y:0px;}
-  to{background-position-y:-540px;}
+  from{background-position-y:0%;}
+  to{background-position-y:60%;}
 }
 
 @keyframes enemySkill {
   from{background-position-y:0px;}
-  to{background-position-y:-540px;}
+  to{background-position-y:60%;}
 }
 
 @keyframes enemyAttackPlume {
-  from{background-position-y: -1260px;}
-  to{background-position-y: -720px;}
-}
-
-@keyframes enemySkillPlume {
-  from{background-position-y:-1260px;}
-  to{background-position-y: -720px;}
+  from{background-position-y: 140%;}
+  to{background-position-y: 80%;}
 }
 
 body {
